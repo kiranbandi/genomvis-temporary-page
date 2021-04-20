@@ -109,15 +109,7 @@
                         </div><img class="img-fluid" src="assets/img/stacked.png" alt="Stacked GFF Viz" />
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">Stacked Triad Browser
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/triad-stack.png" alt="Stacked GFF Viz" />
-                    </div>
-                </div>
+
                 <div class="col-md-6 col-lg-6 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div
@@ -127,7 +119,25 @@
                         </div><img class="img-fluid" src="assets/img/genotype.png" alt="Genotype Viz" />
                     </div>
                 </div>
-               
+                <div class="col-md-6 col-lg-6 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Genotype Matrix Tree
+                                Browser
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/haplotype_tree.png" alt="Genotype Tree Viz" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Stacked Triad Browser
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/triad_stacked.png" alt="Stacked Triad" />
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -330,7 +340,70 @@
         </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
-    aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+        aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Custom JBrowse Installation</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="assets/img/jbrowse.png" alt="JBrowse" />
+                                <p class="mb-5 text-justify">This is our custom server hosting a prepackaged version of
+                                    the popular genome browser tool JBrowse with an assorted set of datasets. Its customized with tools to support revisitation.
+                                </p>
+                                <a class="btn btn-primary" href="https://genomevis.usask.ca/jbrowse"><i
+                                        class="fas fa-link fa-fw"></i>Custom
+                                    JBrowse - Weblink</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Triad Stacked Browser</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="assets/img/triad_stacked.png"
+                                    alt="Triad Stacked" />
+                                <p class="mb-5 text-justify">The Stacked Triad browser used a horizontal stacked layout
+                                    to visualize transcriptome data. It supports zooming and panning and other
+                                    interactive techniques for a detailed exploration of the dataset. This project is
+                                    still under development and more features will be added in the coming future.</p>
+                                <a class="btn btn-primary" href="https://genomevis.usask.ca/triad-stack"><i
+                                        class="fas fa-link fa-fw"></i>Stacked
+                                    Triad Browser - Weblink</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
+    aria-labelledby="#portfolioModal7Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
@@ -339,51 +412,25 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Custom JBrowse Installation</h2>
+                            <h2 class="portfolio-modal-title text-secondary mb-0">Genotype Matrix Tree Browser</h2>
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
                                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                 <div class="divider-custom-line"></div>
                             </div>
-                            <img class="img-fluid rounded mb-5" src="assets/img/jbrowse.png" alt="Genome Browser" />
-                            <p class="mb-5 text-justify">This is our custom server hosting a prepackaged version of the popular genome browser tool JBrowse 
-                                with an assorted set of datasets. We have customized it with our own revisitation tools.
-                            </p>
-                            <a class="btn btn-primary" href="https://genomevis.usask.ca/jbrowse"><i class="fas fa-link fa-fw"></i>Custom
-                                JBrowse - Weblink</a>
+                            <img class="img-fluid rounded mb-5" src="assets/img/haplotype_tree.png"
+                                alt="Triad Stacked" />
+                            <p class="mb-5 text-justify">This tool is an extension of the Genotype Matrix Browser
+                                that provides an additional layer of analysis by accompanying the main matrix visualization with a dendogram linking all the genotype lines in the matrix.
+                            The ordering of the lines in the matrix is dependent on the layout of the leaf nodes in the dendogram. Additionally the dendogram can be replaced with a trait map of certain phenotypic traits and then the ordering of the lines can be controlled based on the prevelance of these traits.</p>
+                            <a class="btn btn-primary" href="https://genomevis.usask.ca/haplotype-map-tree"><i
+                                    class="fas fa-link fa-fw"></i>Genotype Matrix Tree Browser - Weblink</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
-aria-labelledby="#portfolioModal6Label" aria-hidden="true">
-<div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-        <div class="modal-body text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="portfolio-modal-title text-secondary mb-0">Genome Browser</h2>
-                        <div class="divider-custom">
-                            <div class="divider-custom-line"></div>
-                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                            <div class="divider-custom-line"></div>
-                        </div>
-                        <img class="img-fluid rounded mb-5" src="assets/img/triad-stack.PNG" alt="Genome Browser" />
-                        <p class="mb-5 text-justify">The Stacked Triad browser used a horizontal stacked layout to visualize transcriptome data. It supports zooming and panning and other interactive techniques for a detailed exploration of the dataset. This project is still under development and more features will be added in the coming future.</p>
-                        <a class="btn btn-primary" href="https://genomevis.usask.ca/triad-stack"><i class="fas fa-link fa-fw"></i>Stacked
-                            Triad Browser - Weblink</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
 
     <section class="page-section bg-primary text-white mb-0" id="about">
@@ -447,8 +494,8 @@ aria-labelledby="#portfolioModal6Label" aria-hidden="true">
                     <div class="d-flex flex-column align-items-center">
                         <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
                         <div class="text-muted">Email</div>
-                        <a class="lead font-weight-bold" href="mailto:venkat.bandi@usask.ca">venkat.bandi@usask.ca</a>
                         <a class="lead font-weight-bold" href="mailto:carl.gutwin@usask.ca">carl.gutwin@usask.ca</a>
+                        <a class="lead font-weight-bold" href="mailto:venkat.bandi@usask.ca">venkat.bandi@usask.ca</a>
                     </div>
                 </div>
             </div>
